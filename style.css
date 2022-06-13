@@ -29,6 +29,16 @@
   margin: 5px;
 }
 
+.extBar{
+  background-color: rgb(4, 220, 36);
+  display: flex;
+  width: 200px;
+  height: 100vh;
+  margin: 5px;
+  align-content: flex-end;
+  transition: 1s;
+}
+
 .sideBar {
   background-color: violet;
   display: flex;
@@ -38,6 +48,7 @@
   align-content: flex-end;
   transition: 1s;
 }
+
 
 .x {
   padding: 2px;
