@@ -1,9 +1,10 @@
-const sideBar = document.querySelector(".sideBar");
-const extBar = document.querySelector(".extBar");
-const span = document.querySelector("span");
-const x = document.querySelector(".x");
-const classes = span.classList;
+const sideBarElement = document.querySelector("#sideBar");
+const buttonElement = document.querySelector("#button");
+const containerElement = document.querySelector("#container");
+const bodyElement = document.querySelector("body");
 
-x.addEventListener("click", function () {
-  classes.toggle("sideBar");
+buttonElement.addEventListener("click", function () {
+  sideBarElement.classList.toggle("active");
+  containerElement.classList.toggle("open");
+  bodyElement.classList.toggle("open");
 });
